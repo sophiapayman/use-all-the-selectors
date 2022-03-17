@@ -34,22 +34,25 @@ strong + .dfn {
   color: #fff;
 }
 
-#contents #favs {
-  color: #93a1a1;
-}
-
 a:not(.no-highlight) {
   background-color: #719e07;
+}
+
+#contents #favs {
+  color: #93a1a1;
 }
 
 [rel="external"] {
   background-color: #2694d8;
 }
 
+li ol:first-child {
+  color: #719e47;
+}
+
 ol li:last-child {
   color: #2aa198;
 }
-
 
 .types li:nth-child(odd) {
   background-color: #657ba3;
@@ -58,7 +61,6 @@ ol li:last-child {
 .types li:nth-child(even) {
   background-color: #586e75;
 }
-
 
 .types li:nth-child(3n) {
   background-color: #d04b16;
